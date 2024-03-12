@@ -1,9 +1,9 @@
+import gnaneswarImage from '../images/gnan.jpg'
 const people = [
   {
     name: 'Gnaneswar Lopinti',
     role: 'Founder / CEO',
-    imageUrl:
-      'https://via.placeholder.com/150', // Example image URL
+    imageUrl:gnaneswarImage, // Example image URL
   },
   {
     name: 'Sonika Kommineni',
