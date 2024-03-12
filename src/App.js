@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Im
 import LandingPage from './LandingPage';
 import SignIn from './components/SignIn';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from '@vercel/analytics';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         </Routes>
       </Router>
       <SpeedInsights/>
+      <Analytics/>
     </>
   );
 }
