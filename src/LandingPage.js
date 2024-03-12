@@ -22,6 +22,7 @@ import Blog from './components/Blog'
 import Team from './components/Team'
 import Newsletter from './components/Newsletter'
 
+
 const defaultTheme = createTheme({});
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {

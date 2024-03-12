@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Routes
-import { createGlobalStyle } from 'styled-components';
 import LandingPage from './LandingPage';
-import Team from './components/Team';
 import SignIn from './components/SignIn';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<LandingPage />} /> {/* Example: Default route */}
         </Routes>
       </Router>
+      <SpeedInsights/>
     </>
   );
 }
